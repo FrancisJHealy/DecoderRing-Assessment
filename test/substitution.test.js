@@ -27,7 +27,7 @@ describe("substitution", () => {
 
   
   describe("encoding a message", () => {
-    it("should encode a message by converting the messageusing the substitution alphabet parameter", () => {
+    it("should encode a message by converting the message using the substitution alphabet parameter", () => {
       const message = "message";
       const alphabet = "plmoknijbuhvygctfxrdzeswaq";
       const actual = substitution(message, alphabet);
